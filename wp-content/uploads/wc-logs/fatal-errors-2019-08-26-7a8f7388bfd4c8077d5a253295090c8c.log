@@ -1,0 +1,24 @@
+2019-08-26T06:42:44+00:00 CRITICAL Uncaught Error: Call to undefined function yith_wcwl_count_all_products() in C:\xampp\htdocs\woocommerce\wp-content\plugins\baltic-kit\includes\frontend-ajax.php:238
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\plugins\baltic-kit\includes\frontend-ajax.php(117): BalticKit\Frontend_Ajax->wishlist_count()
+#1 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(286): BalticKit\Frontend_Ajax->parse_request(Object(WP))
+#2 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\woocommerce\wp-includes\class-wp.php(373): do_action_ref_array('parse_request', Array)
+#5 C:\xampp\htdocs\woocommerce\wp-includes\class-wp.php(713): WP->parse_request('')
+#6 C:\xampp\htdocs\woocommerce\wp-includes\functions.php(960): WP->main('')
+#7 C:\xampp\htdocs\woocommerce\wp-blog-header.php(16): wp()
+#8 C:\xampp\htdocs\woocommerce\index.php(17): require('C:\\xampp\\htdocs...'
+
+2019-08-26T06:42:45+00:00 CRITICAL Uncaught Error: Call to undefined function yith_wcwl_count_all_products() in C:\xampp\htdocs\woocommerce\wp-content\plugins\baltic-kit\includes\frontend-ajax.php:238
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\plugins\baltic-kit\includes\frontend-ajax.php(117): BalticKit\Frontend_Ajax->wishlist_count()
+#1 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(286): BalticKit\Frontend_Ajax->parse_request(Object(WP))
+#2 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\woocommerce\wp-includes\class-wp.php(373): do_action_ref_array('parse_request', Array)
+#5 C:\xampp\htdocs\woocommerce\wp-includes\class-wp.php(713): WP->parse_request('')
+#6 C:\xampp\htdocs\woocommerce\wp-includes\functions.php(960): WP->main('')
+#7 C:\xampp\htdocs\woocommerce\wp-blog-header.php(16): wp()
+#8 C:\xampp\htdocs\woocommerce\index.php(17): require('C:\\xampp\\htdocs...'
+

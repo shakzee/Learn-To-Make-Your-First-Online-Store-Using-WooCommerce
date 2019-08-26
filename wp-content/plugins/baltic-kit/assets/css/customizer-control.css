@@ -1,0 +1,32 @@
+.iris-strip.iris-slider.iris-alpha-slider {
+	margin-left: 8px !important;
+}
+
+li#accordion-panel-baltic_hero_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_slider_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_product_cats_1_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_product_cats_2_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_products_1_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_products_2_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_products_3_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_products_4_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_latest_posts_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_posts_1_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_posts_2_panel > h3.accordion-section-title:before,
+li#accordion-panel-baltic_tweets_panel > h3.accordion-section-title:before,
+li#accordion-section-baltic_homepage_order > h3.accordion-section-title:before {
+	display: inline-block;
+	position: relative;
+	font-family: dashicons;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	vertical-align: top;
+	content: "\f180";
+
+	speak: none;
+}
+
+li#accordion-section-baltic_homepage_order > h3.accordion-section-title:before {
+	content: "\f333";
+}
